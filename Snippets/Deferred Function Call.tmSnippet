@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>func (${1:receiver} ${2:type}) ${3:name}(${4:params}) (${5:type}) {
-	${0:// body}
-}</string>
+	<string>defer ${0:file.Close()}</string>
 	<key>name</key>
-	<string>Method w/ result vars</string>
+	<string>Deferred Function Call</string>
 	<key>scope</key>
 	<string>source.go</string>
 	<key>tabTrigger</key>
-	<string>methv</string>
+	<string>def</string>
 	<key>uuid</key>
-	<string>0DF6CCE2-56DF-43EF-8EEE-BDFFEC38C244</string>
+	<string>AA2A0BCD-98B2-4B31-9F54-4207073E201C</string>
 </dict>
 </plist>
